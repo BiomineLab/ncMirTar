@@ -35,11 +35,11 @@ UUUUACAAUAAAACUUUGCUGCC
 
 **Output format (output_search.txt):**
 
-@miRNA_id::gene_name,transcript,seed_type,propensity_gene  
-\>position_binding,proensity_duplex  
-Target sequence from 5' end to 3' end  
-interaction (| for Watson-Crick base pair, : for GU wobble, and space for mismatch)  
-miRNA sequence from 3' end to 5' end  
+`@miRNA_id::gene_name,transcript,seed_type,propensity_gene ` 
+`\>position_binding,proensity_duplex  `
+`Target sequence from 5' end to 3' end  `
+`interaction (| for Watson-Crick base pair, : for GU wobble, and space for mismatch)  `
+`miRNA sequence from 3' end to 5' end  `
 
 
 
@@ -69,10 +69,10 @@ miRNA sequence from 3' end to 5' end
 
 **Outputs:**
 
-\> hsa-let-7a-5p, Length=22, 42.1, 9e-08  
-Query  1   TGAGGTAGTAGGTTGTATAGT  21  
-           |||||||||||||||||||||      
-Sbjct  1   TGAGGTAGTAGGTTGTATAGT  21  
+	\> hsa-let-7a-5p, Length=22, 42.1, 9e-08  
+	Query  1   TGAGGTAGTAGGTTGTATAGT  21  
+	       |||||||||||||||||||||      
+	Sbjct  1   TGAGGTAGTAGGTTGTATAGT  21  
 
 **Output format (output_alignment before prediction.txt):**
 
