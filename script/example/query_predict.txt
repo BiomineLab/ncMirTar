@@ -1,0 +1,1 @@
+perl predict_ncMirTar.pl human UGAGGUAGUAGGUUGUAUAGUA /ncMirTar /result 1

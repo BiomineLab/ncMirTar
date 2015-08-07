@@ -1,0 +1,24 @@
+> hsa-let-7a-5p, Length=22, 42.1, 9e-08
+Query  1   TGAGGTAGTAGGTTGTATAGT  21
+           |||||||||||||||||||||
+Sbjct  1   TGAGGTAGTAGGTTGTATAGT  21
+> hsa-let-7c-5p, Length=22, 36.2, 5e-06
+Query  1   TGAGGTAGTAGGTTGTAT  18
+           ||||||||||||||||||
+Sbjct  1   TGAGGTAGTAGGTTGTAT  18
+> hsa-let-7f-5p, Length=22, 34.2, 2e-05
+Query  1   TGAGGTAGTAGGTTGTATAGT  21
+           ||||||||||| |||||||||
+Sbjct  1   TGAGGTAGTAGATTGTATAGT  21
+> hsa-let-7e-5p, Length=22, 34.2, 2e-05
+Query  1   TGAGGTAGTAGGTTGTATAGT  21
+           |||||||| ||||||||||||
+Sbjct  1   TGAGGTAGGAGGTTGTATAGT  21
+> hsa-let-7d-5p, Length=22, 32.2, 9e-05
+Query  2   GAGGTAGTAGGTTGTATAGT  21
+           |||||||||||||| |||||
+Sbjct  2   GAGGTAGTAGGTTGCATAGT  21
+> hsa-let-7b-5p, Length=22, 32.2, 9e-05
+Query  1   TGAGGTAGTAGGTTGT  16
+           ||||||||||||||||
+Sbjct  1   TGAGGTAGTAGGTTGT  16

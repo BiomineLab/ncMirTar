@@ -1,0 +1,1 @@
+perl search_ncMirTar.pl hsa-miR-103a-3p TP53 /ncMirTar /result
