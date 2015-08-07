@@ -23,15 +23,15 @@ All objective c++ files and perl files can be executed under any Linux system, a
 
 **Command line:**
 
-`perl search_ncMirTar.pl hsa-miR-103a-3p NM_000546 ../ncMirTar/ ../result/`
+	perl search_ncMirTar.pl hsa-miR-103a-3p NM_000546 ../ncMirTar/ ../result/
 
 **Outputs:**
 
-@hsa-miR-103a-3p::TP53,NM_000546,6-2,78.96  
-\>1187,1.67551  
-AGUAUCGGGACAUGUUACGACGA  
-|: ||   :   ||  ||||||   
-UUUUACAAUAAAACUUUGCUGCC  
+	@hsa-miR-103a-3p::TP53,NM_000546,6-2,78.96  
+	\>1187,1.67551  
+	AGUAUCGGGACAUGUUACGACGA  
+	|: ||   :   ||  ||||||   
+	UUUUACAAUAAAACUUUGCUGCC  
 
 **Output format (output_search.txt):**
 
@@ -65,7 +65,7 @@ UUUUACAAUAAAACUUUGCUGCC
 
 **Command line:**
 
-`perl predict_ncMirTar.pl human CAAAGUGCUUACAGUGCAGGUAG ../ncMirTar/ ../result/ 0`
+	perl predict_ncMirTar.pl human CAAAGUGCUUACAGUGCAGGUAG ../ncMirTar/ ../result/ 0
 
 **Outputs:**
 
@@ -76,16 +76,16 @@ UUUUACAAUAAAACUUUGCUGCC
 
 **Output format (output_alignment before prediction.txt):**
 
-\> most_similar_miRNA_id, length_miRNA, alignment_score, alignment_evalue  
-Query starting_position_alignment Query_sequence end_position_alignment  
-alignment  
-Sbjct starting_position_alignment most_similar_sequence end_position_alignment  
+	\> most_similar_miRNA_id, length_miRNA, alignment_score, alignment_evalue  
+	Query starting_position_alignment Query_sequence end_position_alignment  
+	alignment  
+	Sbjct starting_position_alignment most_similar_sequence end_position_alignment  
 
 #### Example 2
 
 **Command line:**
 
-`perl predict_ncMirTar.pl human CAAAGUGCUUACAGUGCAGGUAG ../ncMirTar/ ../result/ 1`
+	perl predict_ncMirTar.pl human CAAAGUGCUUACAGUGCAGGUAG ../ncMirTar/ ../result/ 1
 
 **Outputs:**
 
@@ -97,8 +97,8 @@ Sbjct starting_position_alignment most_similar_sequence end_position_alignment
 
 **Output format (output_alignment before prediction.txt):**
 
-@miRNA_id::gene_name,transcript,seed_type,propensity_gene  
-\>position_binding,proensity_duplex  
-Target sequence from 5' end to 3' end  
-interaction (| for Watson-Crick base pair, : for GU wobble, and space for mismatch)  
-miRNA sequence from 3' end to 5' end  
+	@miRNA_id::gene_name,transcript,seed_type,propensity_gene  
+	\>position_binding,proensity_duplex  
+	Target sequence from 5' end to 3' end  
+	interaction (| for Watson-Crick base pair, : for GU wobble, and space for mismatch)  
+	miRNA sequence from 3' end to 5' end  
