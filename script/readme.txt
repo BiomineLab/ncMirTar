@@ -1,6 +1,6 @@
 non-canonical miRNA target predictor - ncMirTar
 
-All objective c++ files and perl files can be executed under any Lunix system, and windows system with Perl installed.
+All objective c++ files and perl files can be executed under any Linux system, and windows system with Perl installed.
 
 
 Part I: searching targets from the database
