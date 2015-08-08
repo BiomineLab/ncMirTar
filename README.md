@@ -28,7 +28,7 @@ All objective c++ files and perl files can be executed under any Linux system, a
 **Outputs:**
 
 	@hsa-miR-103a-3p::TP53,NM_000546,6-2,78.96  
-	\>1187,1.67551  
+	>1187,1.67551  
 	AGUAUCGGGACAUGUUACGACGA  
 	|: ||   :   ||  ||||||   
 	UUUUACAAUAAAACUUUGCUGCC  
@@ -36,7 +36,7 @@ All objective c++ files and perl files can be executed under any Linux system, a
 **Output format (output_search.txt):**
 
 	@miRNA_id::gene_name,transcript,seed_type,propensity_gene  
-	\>position_binding,proensity_duplex  
+	>position_binding,proensity_duplex  
 	Target sequence from 5' end to 3' end  
 	interaction (| for Watson-Crick base pair, : for GU wobble, and space for mismatch)  
 	miRNA sequence from 3' end to 5' end  
@@ -69,14 +69,14 @@ All objective c++ files and perl files can be executed under any Linux system, a
 
 **Outputs:**
 
-	\> hsa-let-7a-5p, Length=22, 42.1, 9e-08  
+	>hsa-let-7a-5p, Length=22, 42.1, 9e-08  
 	Query  1   TGAGGTAGTAGGTTGTATAGT  21  
 	       |||||||||||||||||||||      
 	Sbjct  1   TGAGGTAGTAGGTTGTATAGT  21  
 
 **Output format (output_alignment before prediction.txt):**
 
-	\> most_similar_miRNA_id, length_miRNA, alignment_score, alignment_evalue  
+	>most_similar_miRNA_id, length_miRNA, alignment_score, alignment_evalue  
 	Query starting_position_alignment Query_sequence end_position_alignment  
 	alignment  
 	Sbjct starting_position_alignment most_similar_sequence end_position_alignment  
@@ -90,7 +90,7 @@ All objective c++ files and perl files can be executed under any Linux system, a
 **Outputs:**
 
 	@hsa-miR-new::A2ML1,NM_001282424,6-3,39.11  
-	\>172,0.687165  
+	>172,0.687165  
 	UAUAAUACUUUCUACUACCUUU  
 	||: ||||  :|||||||||:   
 	AUGAUAUGUUGGAUGAUGGAGU  
@@ -98,7 +98,7 @@ All objective c++ files and perl files can be executed under any Linux system, a
 **Output format (output_alignment before prediction.txt):**
 
 	@miRNA_id::gene_name,transcript,seed_type,propensity_gene  
-	\>position_binding,proensity_duplex  
+	>position_binding,proensity_duplex  
 	Target sequence from 5' end to 3' end  
 	interaction (| for Watson-Crick base pair, : for GU wobble, and space for mismatch)  
 	miRNA sequence from 3' end to 5' end  
