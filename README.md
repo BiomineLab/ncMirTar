@@ -10,7 +10,9 @@ All objective c++ files and perl files can be executed under any Linux system, a
 
 1. miRNA id from miRBase: e.g. hsa-miR-103a-3p
 2. mRNA accession id from RefSeq: e.g. NM_000546 or mRNA symbol from Genbank: e.g. TP53 
-3. directory of the ncMirTar database
+3. directory of the ncMirTar database (A compressed file including all data could be downloaded at 
+[http://biomine-ws.ece.ualberta.ca/ncMirTar/downloads/ncMirTar.tar.gz](http://biomine-ws.ece.ualberta.ca/ncMirTar/downloads/ncMirTar.tar.gz) 
+please note that the file size is over 2GB)
 4. directory of the result
 
 ### Execution and Outputs
@@ -49,7 +51,9 @@ All objective c++ files and perl files can be executed under any Linux system, a
 
 1. species (drop down list: human and mouse)
 2. miRNA sequence from 5' end to 3' end
-3. directory of the database
+3. directory of the ncMirTar database (A compressed file including all data could be downloaded at 
+[http://biomine-ws.ece.ualberta.ca/ncMirTar/downloads/ncMirTar.tar.gz](http://biomine-ws.ece.ualberta.ca/ncMirTar/downloads/ncMirTar.tar.gz) 
+please note that the file size is over 2GB)
 4. directory of the result
 5. procedure mode (0: sequence similarity alignment for user's first request; 1: if the user still wants the prediction for the new miRNA after alignment)
 
@@ -71,7 +75,7 @@ All objective c++ files and perl files can be executed under any Linux system, a
 
 	>hsa-let-7a-5p, Length=22, 42.1, 9e-08  
 	Query  1   TGAGGTAGTAGGTTGTATAGT  21  
-	       |||||||||||||||||||||      
+	           |||||||||||||||||||||      
 	Sbjct  1   TGAGGTAGTAGGTTGTATAGT  21  
 
 **Output format (output_alignment before prediction.txt):**
